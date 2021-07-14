@@ -5,7 +5,7 @@
 }
 .headerMenu a{
     display: inline-block; 
-    margin: 0 10px; 
+    margin: 0 8px; 
     text-decoration:none; 
     color: #565673; 
     font-size: 18px;
@@ -14,4 +14,4 @@
 
 .headerMenu a:hover{
     color: red
-}
+}   

@@ -1,0 +1,19 @@
+.homeland{
+    background-image: url("https://images.unsplash.com/photo-1495364037436-fed1ba81ad3e?ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTF8fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+}
+
+.logo {
+    font-family:'Lexend Exa', sans-serif;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    font-size: 75pt;
+    text-align: center;
+}

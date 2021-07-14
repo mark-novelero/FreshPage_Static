@@ -15,6 +15,23 @@
     
   }
 
+  .submit{
+    font-family:'Lexend Exa', sans-serif;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    font-size: 30pt;
+    text-align: center;
+
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+  }
+
   
   @keyframes fadeIn {
     0% {opacity:0;}

@@ -1,27 +1,35 @@
 
+.blogs {
+    font-family:'Lexend Exa', sans-serif;
+    color: grey;
+    background: #FFFFFF;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    font-size: 30 pt;
+    text-align: center;
+}
 
-body{
-    align-items: center;
-    background: #e9eaed;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-  }
-  
-.main{
-    width: 90%; 
-    margin: 0 auto; 
-    align-items: center;
-    
+.photoblog{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+  padding:3px;
+  border:3px solid #dbe0e7;
+  background-color: rgb(170, 166, 166);
+}
 
+.onDiv{
+    display:-moz-grid-group;
+    padding-top: 12px;
+    padding-right: 40px;
     animation: fadeIn 6s;
     -webkit-animation: fadeIn 6s;
     -moz-animation: fadeIn 6s;
     -o-animation: fadeIn 6s;
     -ms-animation: fadeIn 6s;
   }
-
-
-    
-  
 
   
   @keyframes fadeIn {

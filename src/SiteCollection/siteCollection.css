@@ -1,10 +1,299 @@
-
 .site_photos{
-   display: grid; 
-   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-   grid-gap: 5px;
-}
+        margin: 0 auto; 
+        border: 1.2px solid black;
+        display: grid; 
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 5px;
+    } 
+ 
 
 .site_photos img{
     width: 255px;
 }
+
+.p1{
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;  
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+}
+
+.p2{
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn s;
+    -moz-animation: fadeIn 2s;  
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+.p3{
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;  
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.p4{
+    animation: fadeIn 8s;
+    -webkit-animation: fadeIn 8s;
+    -moz-animation: fadeIn 28s;  
+    -o-animation: fadeIn 8s;
+    -ms-animation: fadeIn 8s;
+}
+
+.p5{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;  
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+.p6{
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;  
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+.p7{
+    animation: fadeIn 9s;
+    -webkit-animation: fadeIn 9s;
+    -moz-animation: fadeIn 9s;  
+    -o-animation: fadeIn 9s;
+    -ms-animation: fadeIn 9s;
+}
+
+.p8{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;  
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+.p9{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;  
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+.p10{
+    animation: fadeIn 7s;
+    -webkit-animation: fadeIn 7s;
+    -moz-animation: fadeIn 7s;  
+    -o-animation: fadeIn 7s;
+    -ms-animation: fadeIn 7s;
+}
+
+.p11{
+    animation: fadeIn 9s;
+    -webkit-animation: fadeIn 9s;
+    -moz-animation: fadeIn 9s;  
+    -o-animation: fadeIn 9s;
+    -ms-animation: fadeIn 9s;
+}
+
+.p12{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;  
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+.p13{
+    animation: fadeIn 10s;
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;  
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+}
+
+.p14{
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn s;
+    -moz-animation: fadeIn 2s;  
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+.p15{
+    animation: fadeIn 14s;
+    -webkit-animation: fadeIn 14s;
+    -moz-animation: fadeIn 14s;  
+    -o-animation: fadeIn 14s;
+    -ms-animation: fadeIn 14s;
+}
+
+.p16{
+    animation: fadeIn 8s;
+    -webkit-animation: fadeIn 8s;
+    -moz-animation: fadeIn 28s;  
+    -o-animation: fadeIn 8s;
+    -ms-animation: fadeIn 8s;
+}
+
+.p17{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;  
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+.p18{
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;  
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+.p19{
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;  
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+}
+
+.p20{
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn s;
+    -moz-animation: fadeIn 2s;  
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+.p21{
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;  
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.p22{
+    animation: fadeIn 8s;
+    -webkit-animation: fadeIn 8s;
+    -moz-animation: fadeIn 28s;  
+    -o-animation: fadeIn 8s;
+    -ms-animation: fadeIn 8s;
+}
+
+.p23{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;  
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+.p24{
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;  
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+.p25{
+    animation: fadeIn 9s;
+    -webkit-animation: fadeIn 9s;
+    -moz-animation: fadeIn 9s;  
+    -o-animation: fadeIn 9s;
+    -ms-animation: fadeIn 9s;
+}
+
+.p26{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;  
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+.p27{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;  
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+.p28{
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;  
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+.p29{
+    animation: fadeIn 9s;
+    -webkit-animation: fadeIn 9s;
+    -moz-animation: fadeIn 9s;  
+    -o-animation: fadeIn 9s;
+    -ms-animation: fadeIn 9s;
+}
+
+.p30{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;  
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+.p31{
+    animation: fadeIn 10s;
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;  
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+}
+
+.p32{
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn s;
+    -moz-animation: fadeIn 2s;  
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+.p33{
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;  
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+
+.p34{
+    animation: fadeIn 8s;
+    -webkit-animation: fadeIn 8s;
+    -moz-animation: fadeIn 8s;  
+    -o-animation: fadeIn 8s;
+    -ms-animation: fadeIn 8s;
+}
+.p35{
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;  
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+
+
+
+ .primary{
+    width: 95%; 
+    margin: 0 auto; 
+    align-items: center;
+    
+
+   
+ }
