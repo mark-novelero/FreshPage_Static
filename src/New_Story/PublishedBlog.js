@@ -11,10 +11,8 @@ export default class Blog extends React.Component{
 render() {
     return (
       <div>
-        <FixedHeader></FixedHeader>
          <div>
            <br></br>
-    
       <Container>
         <img className= "mainPhoto" src= {this.props.mainPhoto.photo_url}></img>
         <br></br>

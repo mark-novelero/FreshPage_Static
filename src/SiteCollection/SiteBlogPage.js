@@ -10,13 +10,15 @@ export default class SiteBlogPage extends React.Component{
 
 render() {
     return (
-      <div>
-        <FixedHeader></FixedHeader>
+      <div >
         <br></br>
         <br></br>
           <img className= "mainImage" src= {this.props.siteSelectedPhoto.photo_url} ></img>
         <br></br>
-          <ol>{this.props.siteStories.map(story=> <SiteStories story= {story.story}/>)}</ol>  
+        <div >
+          <ol className>{this.props.siteStories.map(story=> <SiteStories story= {story.story}/>)}</ol>  
+          <br></br>
+        </div>
       </div>
     )
   }

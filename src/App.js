@@ -9,11 +9,15 @@ import UserHome from './HomeUserPage/UserHome';
 import PublishedBlog from './New_Story/PublishedBlog';
 import SiteBlogPage from './SiteCollection/SiteBlogPage';
 import CollectionCard from './HomeUserPage/CollectionCard';
+import FixedHeader from './fixed_header/FixedHeader';
+import { Segment, Divider, Header } from 'semantic-ui-react';
+import AltHome from './AltHome';
 
 
 export default class App extends React.Component{
 
   state = {
+    home: true, 
     allUsers: [],
     blogs: [],
     photos: [], 
@@ -114,6 +118,12 @@ addNewBlog = (blogObj) =>{
   })
 }
 
+changeHome = () => {
+  this.setState({
+    home: !this.state.home
+  })
+}
+
 changeSubmitStatus = () => {
   this.setState({
     submitStatus: !this.state.submitStatus
@@ -132,7 +142,8 @@ switchPhoto= () => {
 
     return (
       <div>
-
+        { this.state.home === false ? <FixedHeader changeHome = {this.changeHome} home = {this.state.home}></FixedHeader> : null }
+        
         <Switch>
 
         <Route path = "/userhome">
@@ -169,7 +180,7 @@ switchPhoto= () => {
         </Route>
 
         <Route path= "/">
-          <Home getUserBlogs = {this.getUserBlogs}/>
+          <Home changeHome = {this.changeHome} home = {this.state.home} getUserBlogs = {this.getUserBlogs}/>
         </Route>
 
         </Switch>

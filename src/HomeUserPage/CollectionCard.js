@@ -11,14 +11,14 @@ export default class CollectionCard extends React.Component{
 render() {
     return (
       <div>
-        <FixedHeader></FixedHeader>
          <div>
            <br></br>
-    
       <Container>
         <img className= "mainPhoto" src= {this.props.photo.photo_url}></img>
         <br></br>
+        <div className = "blogText">
         <p className = "blogfont">{this.props.story}</p>
+        </div>
         <br></br>
         <br></br>
         <br></br>

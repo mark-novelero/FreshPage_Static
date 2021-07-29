@@ -1,73 +1,91 @@
 .mainPhoto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding:3px;
-    border:3px solid #dbe0e7;
-    background-color: rgb(170, 166, 166);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+  border: 0.2px solid #dbe0e7;
+  background-color: rgb(170, 166, 166);
+  width: 550px;
+  height: 400px;
+  object-fit: cover;
 
-    animation: fadeIn 6s;
-    -webkit-animation: fadeIn 6s;
-    -moz-animation: fadeIn 6s;
-    -o-animation: fadeIn 6s;
-    -ms-animation: fadeIn 6s;
-    
-  }
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
+}
 
-  .submit{
-    font-family:'Lexend Exa', sans-serif;
-    color: #FFFFFF;
-    background: #FFFFFF;
-    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
-    color: #FFFFFF;
-    background: #FFFFFF;
-    font-size: 30pt;
-    text-align: center;
+.submit {
+  font-family: "Lexend Exa", sans-serif;
+  color: #ffffff;
+  background: #ffffff;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+  color: #ffffff;
+  background: #ffffff;
+  font-size: 30pt;
+  text-align: center;
 
-    animation: fadeIn 6s;
-    -webkit-animation: fadeIn 6s;
-    -moz-animation: fadeIn 6s;
-    -o-animation: fadeIn 6s;
-    -ms-animation: fadeIn 6s;
-  }
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
+}
 
-  
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  100% {
+    opacity: 1;
   }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
+}
 
-  
-  #cf2 img {
-    
-    left:0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  #cf2 img.transparent {
-  opacity:0;
+  100% {
+    opacity: 1;
   }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#cf2 img {
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf2 img.transparent {
+  opacity: 0;
+}

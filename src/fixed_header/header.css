@@ -1,17 +1,31 @@
-.header{
-    display: flex;
-    justify-content: space-between; 
-    margin:15px 0; 
-}
-.headerMenu a{
-    display: inline-block; 
-    margin: 0 8px; 
-    text-decoration:none; 
-    color: #565673; 
-    font-size: 18px;
-    letter-spacing: 1.2px;
+.header {
+  justify-content: space-between;
+  margin: 15px 0;
+  height: 70px;
+  box-shadow: slategray;
 }
 
-.headerMenu a:hover{
-    color: red
-}   
+.shadow {
+  box-shadow: 5px 6px 8px #e2dfe2;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: white;
+  margin-top: 0.296in;
+}
+
+.headerMenu a {
+  margin: 0 8px;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  font-family: "Lexend Exa", sans-serif;
+  color: rgb(246, 246, 248);
+  text-shadow: 1px 3px 0 #a8a5a5, 1px 8px 5px #d6d2d2;
+  text-align: center;
+  margin-left: 0.462in;
+}
+
+.headerMenu a:hover {
+  color: red;
+}

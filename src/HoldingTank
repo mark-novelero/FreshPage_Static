@@ -46,3 +46,5 @@ import {Link} from 'react-router-dom'
             #e9eaed;
 
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+            <Home changeHome = {this.changeHome} home = {this.state.home} getUserBlogs = {this.getUserBlogs}/>

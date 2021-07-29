@@ -9,11 +9,11 @@ export default class SiteStories extends React.Component{
 
 render() {
     return (
-      <div>    
-        <Segment>
+      <div className = "collection_stories">   
+        <Segment> 
           <li className = "blogfont">{this.props.story}</li>
           <br></br>
-        </Segment>
+        </Segment>   
       </div>
     )
   }

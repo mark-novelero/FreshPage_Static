@@ -13,7 +13,6 @@ export default class MainPage extends React.Component{
   render() {
     return (
       <div >
-        <FixedHeader></FixedHeader>
         <br></br> 
         <MContainer switchPhoto = {this.props.switchPhoto} 
         mainPhoto = {this.props.mainPhoto} addNewBlog = {this.props.addNewBlog}

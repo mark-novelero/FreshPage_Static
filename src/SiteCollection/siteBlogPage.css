@@ -1,65 +1,90 @@
 .blogfont {
-    display: inline-block; 
-    margin: 0 10px; 
-    text-decoration:none; 
-    color: #565673; 
-    font-size: 20px;
-    letter-spacing: 1.2px;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #565673;
+  font-size: 20px;
+  letter-spacing: 1.2px;
 }
 
 .mainImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    padding:3px;
-    border:3px solid #dbe0e7;
-    background-color: rgb(170, 166, 166);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  padding: 3px;
+  border: 3px solid #dbe0e7;
+  background-color: rgb(170, 166, 166);
 
-    animation: fadeIn 6s;
-    -webkit-animation: fadeIn 6s;
-    -moz-animation: fadeIn 6s;
-    -o-animation: fadeIn 6s;
-    -ms-animation: fadeIn 6s;
-    
-  }
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
+}
 
-  
-  @keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
+  100% {
+    opacity: 1;
   }
-  
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
+}
 
-  
-  #cf2 img {
-    
-    left:0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  #cf2 img.transparent {
-  opacity:0;
+  100% {
+    opacity: 1;
   }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#cf2 img {
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf2 img.transparent {
+  opacity: 0;
+}
+
+.collection_stories {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  box-shadow: 5px 10px 8px #d7d4dd;
+  padding: 0.28in;
+  border: #565673;
+  line-height: 24px;
+}
