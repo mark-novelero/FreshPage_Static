@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
-import "./App.css"
 import MainPage from './New_Story/MainPage';
-import "./App.css"
 import SiteCollection from './SiteCollection/SiteCollection';
 import Home from './HomeUserPage/Home';
-import {Route, Switch, Link} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import UserHome from './HomeUserPage/UserHome';
 import PublishedBlog from './New_Story/PublishedBlog';
 import SiteBlogPage from './SiteCollection/SiteBlogPage';
 import CollectionCard from './HomeUserPage/CollectionCard';
 import FixedHeader from './fixed_header/FixedHeader';
-import { Segment, Divider, Header } from 'semantic-ui-react';
-import AltHome from './AltHome';
+
 
 
 export default class App extends React.Component{
@@ -42,9 +39,9 @@ componentDidMount(){
       .then(photographs => this.setState(
           {photos: photographs, 
            selectPhoto: photographs[randomIndex]
-        }
+          }
+        )
       )
-    )
       fetch('http://localhost:9292/blogs')
       .then(res => res.json())
       .then(userBlogs => this.setState(
@@ -56,17 +53,16 @@ componentDidMount(){
       .then(users => this.setState(
         {allUsers: users}
       ))
-
-  } 
+} 
 
 getUserBlogs= ()=> {
     
-    const userCollection = this.state.blogs.filter(siteBlogs => siteBlogs.user_ids === this.state.currentUser)
+  const userCollection = this.state.blogs.filter(siteBlogs => siteBlogs.user_ids === this.state.currentUser)
     
-    this.setState({
-      currentUserBlogs:[...userCollection]
-    })
-  }
+  this.setState({
+    currentUserBlogs:[...userCollection]
+  })
+}
 
   
 getPhotoUserCollection=(photoObj)=>{
@@ -74,7 +70,6 @@ getPhotoUserCollection=(photoObj)=>{
   const story= this.state.currentUserBlogs.find(blog => blog.photo_ids === photoObj.id)
   const photoStory = this.state.photos.find(photo => photo.id===photoObj.id)
   
-
   this.setState({
     photoUserCollection: photoStory,
     storyUserCollection: story.story
@@ -92,30 +87,31 @@ siteCollectionPhoto = (obj) =>{
 }
 
 addNewBlog = (blogObj) =>{
+
   this.setState({
     newestStory: blogObj.story,
     submitStatus: !this.state.submitStatus
   })
 
-    let newBlog = {
-      user_ids: blogObj.user_ids, 
-      photo_ids: blogObj.photo_ids, 
-      story: blogObj.story 
-    }
+  let newBlog = {
+    user_ids: blogObj.user_ids, 
+    photo_ids: blogObj.photo_ids, 
+    story: blogObj.story 
+  }
 
     fetch('http://localhost:9292/blogs', {
      method: "POST",
      headers: {
      "Content-Type": "application/json",
-   },
+    },
       body: JSON.stringify(newBlog),
-   })
+    })
     .then (res => res.json())
     .then (newBlogo => {
     this.setState({
       blogs: [...this.state.blogs, newBlogo]
+      })
     })
-  })
 }
 
 changeHome = () => {
@@ -129,7 +125,6 @@ changeSubmitStatus = () => {
     submitStatus: !this.state.submitStatus
   })
 }
-
 
 switchPhoto= () => {
   let randomIndex2 = Math.floor(Math.random() * 30)
@@ -148,18 +143,19 @@ switchPhoto= () => {
 
         <Route path = "/userhome">
           <UserHome  currentUserBlogs = {this.state.currentUserBlogs} photos= {this.state.photos}
-          getPhotoUserCollection = {this.getPhotoUserCollection}/>
+                     getPhotoUserCollection = {this.getPhotoUserCollection}/>
         </Route>
 
         <Route path = "/usercollectionstory">
           <CollectionCard photo = {this.state.photoUserCollection} story = {this.state.storyUserCollection}
-          switchPhoto = {this.switchPhoto}></CollectionCard>
+                          switchPhoto = {this.switchPhoto}>
+          </CollectionCard>
         </Route>
 
         <Route path = "/sitestory">
           <SiteBlogPage siteSelectedPhoto = {this.state.siteSelectedPhoto} 
-                        siteStories = {this.state.siteStories}
-          ></SiteBlogPage>
+                        siteStories = {this.state.siteStories}>
+          </SiteBlogPage>
         </Route>
 
         <Route path = "/create">
@@ -171,7 +167,7 @@ switchPhoto= () => {
 
         <Route path = "/publishedblog">
           <PublishedBlog mainPhoto = {this.state.selectPhoto} newestStory= {this.state.newestStory} 
-          switchPhoto = {this.switchPhoto}/>
+                         switchPhoto = {this.switchPhoto}/>
         </Route>
 
         <Route path = "/sitecollection">

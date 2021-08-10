@@ -16,6 +16,11 @@
   -ms-animation: fadeIn 6s;
 }
 
+.main-photo-div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .submit {
   font-family: "Lexend Exa", sans-serif;
   color: #ffffff;

@@ -3,10 +3,13 @@ import './siteCollection.css'
 import {Link} from 'react-router-dom'
 
 
+
 export default class SiteCards extends Component {
+
     render(){
 
         const photoid = `p${this.props.photos.id}`
+
         return (
         <div className="site_photos">
             <br></br>
@@ -15,7 +18,5 @@ export default class SiteCards extends Component {
             </Link>
         </div>
         )
-    }
-    
-    
+    }  
 }

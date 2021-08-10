@@ -6,7 +6,6 @@ import './siteBlogPage.css'
 
 export default class SiteStories extends React.Component{
 
-
 render() {
     return (
       <div className = "collection_stories">   

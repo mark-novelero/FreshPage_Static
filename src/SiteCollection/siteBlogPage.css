@@ -7,6 +7,10 @@
   letter-spacing: 1.2px;
 }
 
+.image-div {
+  margin-top: 30px;
+}
+
 .mainImage {
   display: block;
   margin-left: auto;
@@ -15,6 +19,7 @@
   padding: 3px;
   border: 3px solid #dbe0e7;
   background-color: rgb(170, 166, 166);
+  margin-top: 30px;
 
   animation: fadeIn 6s;
   -webkit-animation: fadeIn 6s;

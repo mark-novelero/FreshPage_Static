@@ -25,7 +25,7 @@
   margin-top: 0.05in;
   display: grid;
   grid-template-columns: repeat(3, 1.5fr);
-  grid-template-rows: repeat(3, 1.5fr);
+  grid-template-rows: repeat(2, 1.5fr);
   grid-gap: 13px;
   padding: 0.25in;
 }
