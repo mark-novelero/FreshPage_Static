@@ -4,6 +4,11 @@
   text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
   font-size: 85pt;
   text-align: center;
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
 }
 
 .this {

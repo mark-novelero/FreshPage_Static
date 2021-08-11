@@ -10,15 +10,13 @@ class Home extends Component {
    <div className = "this" onMouseMove = {() => this.props.getUserBlogs()} >
       <div className = "mainIntro"> 
         <h1 className= "logo">Fresh Page</h1> 
-      </div>
-        
-        <Link to= "/create">
-          <div className = "homeButton">
-            <button onClick = {() => this.props.changeHome()} className = "glow-on-hover">Get Started</button>
-          </div>
-        </Link>
-        
-  </div>
+      </div>  
+      <Link to= "/create">
+        <div className = "homeButton">
+          <button onClick = {() => this.props.changeHome()} className = "glow-on-hover">Get Started</button>
+        </div>
+      </Link>
+    </div>
     )
    }
  }

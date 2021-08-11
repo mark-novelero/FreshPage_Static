@@ -4,6 +4,10 @@ import UserBlogCard from './UserBlogsCard'
 
 
 class UserHome extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
  
 render() {
   
