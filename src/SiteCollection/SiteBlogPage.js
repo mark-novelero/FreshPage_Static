@@ -6,6 +6,10 @@ import SiteStories from './SiteStories';
 
 export default class SiteBlogPage extends React.Component{
 
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
 render() {
     return (
       <div >

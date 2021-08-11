@@ -13,9 +13,9 @@ export default class UserBlogsCard extends Component {
 
   return(
       <Link to= "/usercollectionstory">
-        <div className = "onDiv">
+        <div className = "onDiv" onMouseOver= {() => this.props.getPhotoUserCollection(photoBlogs)}>
           <div className = "userimg">
-            <img  src= {photoBlogs.photo_url} onMouseOver= {() => this.props.getPhotoUserCollection(photoBlogs)}  className = "photoblog"></img>
+            <img  src= {photoBlogs.photo_url}   className = "photoblog"></img>
           </div>
           <h1 className = "blogs">Site blog # {this.props.blog.id}</h1> 
           <br></br>

@@ -18,7 +18,7 @@ export default class App extends React.Component{
     allUsers: [],
     blogs: [],
     photos: [], 
-    currentUser: 6,
+    currentUser: 2,
     currentUserBlogs: [], 
     currentUserPhotos:[],
     newestStory:"",

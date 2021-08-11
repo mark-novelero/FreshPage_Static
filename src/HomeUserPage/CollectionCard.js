@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Button } from 'semantic-ui-react';
+import { Container, Button, Segment } from 'semantic-ui-react';
 import "./collectionCard.css";
 import {Link} from 'react-router-dom'
 
@@ -26,6 +26,8 @@ render() {
                   <Button onClick = {() => this.props.switchPhoto()}  color = "gray">Create New Story</Button>
                 </Button.Group>
             </Link>
+            <br></br>
+            <br></br>
           </Container>
         </div>  
       </div>
