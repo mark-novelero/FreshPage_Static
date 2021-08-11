@@ -8,7 +8,7 @@ import './mcontainer.css'
 export default class MContainer extends React.Component {
 
 state = {
-  user_ids: 5, 
+  user_ids: 6, 
   photo_ids: this.props.mainPhoto.id, 
   story: "", 
 }
