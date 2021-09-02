@@ -156,7 +156,7 @@ componentDidMount(){
         "story": "I did not say anything. I was always embarrassed by the words sacred, glorious, and sacrifice and the expression in vain. We had heard them, sometimes standing in the rain almost out of earshot, so that only the shouted words came through, and had read them, on proclamations that were slapped up by billposters over other proclamations, now for a long time, and I had seen nothing sacred, and the things that were glorious had no glory and the sacrifices were like the stockyards at Chicago if nothing was done with the meat except to bury it. There were many words that you could not stand to hear and finally only the names of places had dignity. Certain numbers were the same way and certain dates and these with the names of the places were all you could say and have them mean anything. Abstract words such as glory, honor, courage, or hallow were obscene besides the concrete names of villages, the number of roads, the names of rivers, the numbers of regiments and the dates."
     },
     {
-        "photo_ids": 13, 
+        "photo_ids": 7, 
         "user_ids":  4, 
         "story": "Forget your personal tragedy. We are all bitched from the start and you especially have to hurt like hell before you can write seriously. But when you get the damned hurt use it—don't cheat with it. Be as faithful to it as a scientist—but don't think anything is of any importance because it happens to you or anyone belonging to you."
     },
@@ -221,7 +221,7 @@ componentDidMount(){
         "story": "In the late summer of that year we lived in a house in a village that looked across the river and the plain to the mountains. In the bed of the river there were pebbles and boulders, dry and white in the sun, and the water was clear and swiftly moving and blue in the channels. Troops went by the house and down the road and the dust they raised powdered the leaves of the trees. The trunks of the trees too were dusty and the leaves fell early that year and we saw the troops marching along the road and the dust rising and leaves, stirred by the breeze, falling and the soldiers marching and afterward the road bare and white except for the leaves."
     },
     {
-        "photo_ids": 9, 
+        "photo_ids": 21, 
         "user_ids": 8, 
         "story": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way — in short, the period was so far like the present period, that some of its noisiest authorities insisted on its being received, for good or for evil, in the superlative degree of comparison only."
     },
@@ -271,7 +271,7 @@ componentDidMount(){
         "story": "As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect. He was lying on his hard, as it were armor-plated, back and when he lifted his head a little he could see his dome-like brown belly divided into stiff arched segments on top of which the bed quilt could hardly keep in position and was about to slide off completely. His numerous legs, which were pitifully thin compared to the rest of his bulk, waved helplessly before his eyes."
     },
     {
-        "photo_ids": 9, 
+        "photo_ids": 23, 
         "user_ids": 1, 
         "story": "I am an invisible man. No, I am not a spook like those who haunted Edgar Allan Poe; nor am I one of your Hollywood-movie ectoplasms. I am a man of substance, of flesh and bone, fiber and liquids—and I might even be said to possess a mind. I am invisible, understand, simply because people refuse to see me. Like the bodiless heads you see sometimes in circus sideshows, it is as though I have been surrounded by mirrors of hard, distorting glass. When they approach me they see only my surroundings, themselves, or figments of their imagination—indeed, everything and anything except me."
     },
@@ -301,7 +301,7 @@ componentDidMount(){
         "story": "Just remember that the things you put into your head are there forever, he said. You might want to think about that You forget some things, dont you? Yes. You forget what you want to remember and you remember what you want to forget."
     },
     {
-        "photo_ids": 13, 
+        "photo_ids": 7, 
         "user_ids": 8, 
         "story": "You can tell yourself that you would be willing to lose everything you have in order to get something you want. But it’s a catch-22: all of those things you’re willing to lose are what make you recognizable. Lose them, and you’ve lost yourself."
     },
@@ -331,7 +331,7 @@ componentDidMount(){
         "story": "You think because he doesn’t love you that you are worthless. You think that because he doesn’t want you anymore that he is right — that his judgement and opinion of you are correct. If he throws you out, then you are garbage. You think he belongs to you because you want to belong to him. Don’t. It’s a bad word, ‘belong.’ Especially when you put it with somebody you love. Love shouldn’t be like that. Did you ever see the way the clouds love a mountain? They circle all around it; sometimes you can’t even see the mountain for the clouds. But you know what? You go up top and what do you see? His head. The clouds never cover the head. His head pokes through, beacuse the clouds let him; they don’t wrap him up. They let him keep his head up high, free, with nothing to hide him or bind him. You can’t own a human being. You can’t lose what you don’t own. Suppose you did own him. Could you really love somebody who was absolutely nobody without you? You really want somebody like that? Somebody who falls apart when you walk out the door? You don’t, do you? And neither does he. You’re turning over your whole life to him. Your whole life, girl. And if it means so little to you that you can just give it away, hand it to him, then why should it mean any more to him? He can’t value you more than you value yourself."
     },
     {
-        "photo_ids": 15, 
+        "photo_ids": 18, 
         "user_ids": 7, 
         "story": "…I think we are well-advised to keep on nodding terms with the people we used to be, whether we find them attractive company or not. Otherwise they turn up unannounced and surprise us, come hammering on the mind’s door at 4 a.m. of a bad night and demand to know who deserted them, who betrayed them, who is going to make amends. We forget all too soon the things we thought we could never forget. We forget the loves and the betrayals alike, forget what we whispered and what we screamed, forget who we were."
     },
