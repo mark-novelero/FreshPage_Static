@@ -16,6 +16,10 @@
   -ms-animation: fadeIn 6s;
 }
 
+.story-form {
+  font-size: 30px;
+}
+
 .main-photo-div {
   margin-top: 20px;
   margin-bottom: 20px;
