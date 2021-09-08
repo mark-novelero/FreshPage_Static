@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './siteCollection.css'
 import {Link} from 'react-router-dom'
+import FixedHeader from '../fixed_header/FixedHeader'
 
 
 

@@ -10,7 +10,7 @@ const FixedHeader = (props) => {
     <div className = "shadow">
         <nav className = "headerMenu">
           <div className = "nav-div">
-            <Link to = '/'><a onClick = {() => props.changeHome()}>Fresh Page</a></Link>
+            <Link to = '/'><a>Fresh Page</a></Link>
             <Link to = '/create'><a className = "choice" href="#">Create New Story</a></Link>
             <Link to = "/sitecollection"> <a className = "choice" href="#">Site Collection</a></Link>
           </div>

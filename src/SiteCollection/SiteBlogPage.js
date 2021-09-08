@@ -1,4 +1,5 @@
 import React from 'react';
+import FixedHeader from '../fixed_header/FixedHeader';
 import './siteBlogPage.css'
 import SiteStories from './SiteStories';
 
@@ -13,6 +14,7 @@ export default class SiteBlogPage extends React.Component{
 render() {
     return (
       <div >
+        <FixedHeader></FixedHeader>
         <div className = "image-div">
           <img className= "mainImage" src= {this.props.siteSelectedPhoto.photo_url} ></img>
         </div>

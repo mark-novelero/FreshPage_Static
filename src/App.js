@@ -531,11 +531,12 @@ switchPhoto= () => {
   })
 }
 
+
+
   render() {
 
     return (
       <div>
-        { this.state.home === false ? <FixedHeader changeHome = {this.changeHome} home = {this.state.home}></FixedHeader> : null }
         
         <Switch>
 
@@ -574,7 +575,8 @@ switchPhoto= () => {
         </Route>
 
         <Route path= "/">
-          <Home changeHome = {this.changeHome} home = {this.state.home} getUserBlogs = {this.getUserBlogs}/>
+          <Home submitStatus= {this.state.submitStatus} changeHome = {this.changeHome} 
+                changeSubmitStatus = {this.changeSubmitStatus} home = {this.state.home} getUserBlogs = {this.getUserBlogs}/>
         </Route>
 
         </Switch>

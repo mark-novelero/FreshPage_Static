@@ -14,7 +14,8 @@ class Home extends Component {
         </div>  
         <Link to= "/create">
           <div className = "homeButton">
-            <button onClick = {() => this.props.changeHome()} className = "glow-on-hover">Get Started</button>
+            {this.props.submitStatus === false ? <button className = "glow-on-hover">Get Started</button> : 
+            <button onClick = {() => this.props.changeSubmitStatus()} className = "glow-on-hover">Get Started</button>}
           </div>
         </Link>
       </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Button } from 'semantic-ui-react';
 import "./publishedBlog.css";
 import {Link} from 'react-router-dom'
+import FixedHeader from '../fixed_header/FixedHeader';
 
 
 
@@ -10,6 +11,7 @@ export default class Blog extends React.Component{
 render() {
     return (
       <div>
+        <FixedHeader  ></FixedHeader> 
         <div>
         <br></br>
           <Container>

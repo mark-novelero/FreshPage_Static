@@ -1,4 +1,5 @@
 import React from 'react'
+import FixedHeader from '../fixed_header/FixedHeader'
 import SiteCards from './SiteCards'
 import './siteCollection.css'
 
@@ -16,6 +17,7 @@ export default class SiteCollection extends React.Component {
         
         return(
             <div className = "primary">
+                <FixedHeader></FixedHeader>
                 <br></br>
                 <br></br>
                 <div className="site_photos">
