@@ -451,17 +451,6 @@ this.setState({
   allUsers: users
 })
 
-      fetch('http://localhost:9292/blogs')
-      .then(res => res.json())
-      .then(userBlogs => this.setState(
-        {blogs: userBlogs}
-      ))
-
-      fetch('http://localhost:9292/users')
-      .then(res => res.json())
-      .then(users => this.setState(
-        {allUsers: users}
-      ))
 } 
 
 getUserBlogs= ()=> {

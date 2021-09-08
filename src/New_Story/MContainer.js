@@ -37,11 +37,11 @@ handleTitleChange = (evt) => {
               :
               <img className= "mainPhoto" src= {this.props.mainPhoto.photo_url}></img>}
           </div>
-          <Form onSubmit= {() => this.props.addNewBlog(this.state)} >
-                {this.props.submitStatus === false ? <textarea className = "story-form" placeholder= "Your story" onChange = {(evt) => this.handleFormState(evt)} 
-                style={{ fontSize: 18, maxHeight: 10 }}></textarea> : null}
+          <Form size= "big" onSubmit= {() => this.props.addNewBlog(this.state)} >
+                {this.props.submitStatus === false ? <textarea  className = "story-form" placeholder= "Your story" onChange = {(evt) => this.handleFormState(evt)} 
+                ></textarea> : null}
             <Button.Group attached='bottom'>
-                {this.props.submitStatus === false ? <Button color = "gray">Submit</Button> : null} 
+                {this.props.submitStatus === false ? <Button  color = "gray" size = "large" >Submit</Button> : null} 
             </Button.Group>
           </Form>
         </Segment>

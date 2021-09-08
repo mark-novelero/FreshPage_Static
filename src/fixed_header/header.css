@@ -34,3 +34,37 @@
 .headerMenu a:hover {
   color: red;
 }
+
+@media only screen and (min-width: 1599px) {
+  .headerMenu a {
+    position: sticky;
+    top: 20px;
+    z-index: 999;
+    text-decoration: none;
+    font-size: 29px;
+    letter-spacing: 1.2px;
+    font-family: "Yomogi", cursive;
+    color: rgb(30, 30, 54);
+    text-align: center;
+    margin-left: 8.1%;
+  }
+}
+
+@media only screen and (min-height: 1050px) and (min-width: 1900px) {
+  .nav-div {
+    margin-top: 40px;
+  }
+
+  .headerMenu a {
+    position: sticky;
+    top: 20px;
+    z-index: 999;
+    text-decoration: none;
+    font-size: 32px;
+    letter-spacing: 1.2px;
+    font-family: "Yomogi", cursive;
+    color: rgb(30, 30, 54);
+    text-align: center;
+    margin-left: 8.4%;
+  }
+}

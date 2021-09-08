@@ -14,7 +14,7 @@
 .this {
   display: flex;
   flex-direction: column;
-  background-image: url("https://wallpaperaccess.com/full/2312654.jpg");
+  background-image: url("https://i.imgur.com/kiAaw9b.png");
   align-items: center;
   object-fit: contain;
   height: 100vh;
@@ -27,7 +27,7 @@
 }
 
 .mainIntro {
-  margin-top: 12%;
+  margin-top: 16%;
 }
 
 .glow-on-hover {
@@ -36,7 +36,7 @@
   height: 50px;
   border: none;
   outline: none;
-  color: rgb(128, 120, 120);
+  color: rgb(48, 42, 42);
   background: #111;
   cursor: pointer;
   position: relative;
@@ -107,5 +107,105 @@
   }
   100% {
     background-position: 0 0;
+  }
+}
+
+@media only screen and (min-height: 1049px) and (min-width: 1900px) {
+  .logo {
+    font-family: "Lexend Exa", sans-serif;
+    color: #ffffff;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+    font-size: 110pt;
+    text-align: center;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+  }
+
+  .mainIntro {
+    margin-top: 18%;
+    margin-bottom: 1.8%;
+  }
+
+  .glow-on-hover {
+    margin-top: 105px;
+    width: 300px;
+    height: 70px;
+    border: none;
+    outline: none;
+    color: rgb(48, 42, 42);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 15px;
+    font-family: "Satisfy", cursive;
+    font-size: 0.29in;
+  }
+
+  .glow-on-hover:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #f39e9e,
+      #f7d2b3,
+      #e9e8b3,
+      #c3f3b0,
+      #b4f3e9,
+      #c3cbf1,
+      #d4baf0,
+      #f5bfe9,
+      #f7b6b6
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+
+  .glow-on-hover:active {
+    color: rgb(46, 43, 43);
+  }
+
+  .glow-on-hover:active:after {
+    background: transparent;
+  }
+
+  .glow-on-hover:hover:before {
+    opacity: 1;
+  }
+
+  .glow-on-hover:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: gainsboro;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+  @keyframes glowing {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
   }
 }
