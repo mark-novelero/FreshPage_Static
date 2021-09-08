@@ -497,19 +497,7 @@ addNewBlog = (blogObj) =>{
     story: blogObj.story 
   }
 
-    fetch('http://localhost:9292/blogs', {
-     method: "POST",
-     headers: {
-     "Content-Type": "application/json",
-    },
-      body: JSON.stringify(newBlog),
-    })
-    .then (res => res.json())
-    .then (newBlogo => {
-    this.setState({
-      blogs: [...this.state.blogs, newBlogo]
-      })
-    })
+    
 }
 
 changeHome = () => {
